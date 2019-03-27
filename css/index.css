@@ -146,10 +146,16 @@ body {
 body {
   width: 880px;
   margin: 0 auto;
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin: 0 auto;
+  border: 0 0 1px 0;
 }
 .main-content {
   display: flex;
-  flex-wrap: wrap;
 }
 @media (max-width: 515px) {
   .main-content {
@@ -164,4 +170,11 @@ body {
   .main-content section {
     width: 90%;
   }
+}
+footer {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px dashed black;
+  padding-top: 20px;
 }
