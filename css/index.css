@@ -143,6 +143,10 @@ body {
 * [ ] Mobile: Use nested-at rules to provide a mobile version of your resume. 
     Use `500px` as a `max-width` for mobile. */
 /*@ tags here */
+body {
+  width: 880px;
+  margin: 0 auto;
+}
 .main-content {
   display: flex;
   flex-wrap: wrap;
