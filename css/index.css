@@ -134,4 +134,30 @@ html,
 body {
   height: 100%;
 }
-/* YOLO */
+/* My Code below 
+* [ ] Variables: Incorporate variables in your project for color and font stacks.  
+* [ ] Nesting: Every selector should be nested inside the main container.  
+      Avoid having global styles unless they are element level.
+* [ ] Mixins: Create 2 mixins of your choosing. Hint: It's super helpful to use 
+      flexbox properties in mixins
+* [ ] Mobile: Use nested-at rules to provide a mobile version of your resume. 
+    Use `500px` as a `max-width` for mobile. */
+/*@ tags here */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 515px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+.main-content section {
+  margin: 20px 2.5%;
+  width: 45%;
+}
+@media (max-width: 515px) {
+  .main-content section {
+    width: 90%;
+  }
+}
